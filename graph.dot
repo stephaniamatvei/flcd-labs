@@ -1,0 +1,13 @@
+digraph finite_state_machine {
+    rankdir=LR;
+    size="8,5"
+    node [shape=circle];
+    Empty [shape=doublecircle];
+B -> D[ label = "a" ];
+B -> B[ label = "b" ];
+B -> S[ label = "c" ];
+S -> B[ label = "a" ];
+D -> D[ label = "a" ];
+D -> S[ label = "b" ];
+D -> Empty[ label = "c" ];
+}
