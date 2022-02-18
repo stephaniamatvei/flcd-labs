@@ -44,7 +44,11 @@ Those techniques will be applied to the construction of a compiler for a program
 
 ### Lab 2 - NFA to DFA conversion
 
-***Deadline: 12.02.2022***
+1. Convert NFA from your variant to DFA on paper, writing all transitions and drawing converted automato.
+2. Write program which converts Nondeterministic Finite Automato (NFA) to Deterministic Finite Automato (DFA).
+3. Display converted automato in form of graph or transition table.
+
+***Deadline: 19.02.2022***
 
 ### Lab 3 - Lexer
 
