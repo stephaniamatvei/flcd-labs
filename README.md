@@ -20,7 +20,7 @@
 
 The main objective of the course is to introduce the fundamental notions about formal languages (Chomsky classification of Languages, Regular Languages, Automata, Context Free Grammars, Push Down Automata, Turing Machine) and understand the mechanisms governing the analysis and synthesis of programming languages. Students will learn the most important techniques for the representation and generation of Languages (in particular, regular and context-free languages).
 
-Those techniques will be applied to the construction of a compiler for a programming language. In particular, during this course the student will learn how to build the different parts of a Compiler with a particular emphasis on Lexical Analysers, Parsers.
+Those techniques will be applied to the construction of a compiler for a programming language. In particular, during this course the student will learn **how to build the different parts of a Compiler** with a particular emphasis on **Lexical Analysers, Parsers**.
 
 <img src="https://cs.fit.edu/~ryan/cse4083/formal1.png" width="350" height="250" align="middle" alt="formal">  
 
@@ -30,6 +30,8 @@ Those techniques will be applied to the construction of a compiler for a program
 - John E. Hopcroft, Jeffrey D. Ullman - "Introduction to Automata Theory, Languages, and Computation"
 - [Andrew M. Pitts - "Regular Languages and Finite Automata"](https://www.cl.cam.ac.uk/teaching/0910/RLFA/reglfa.pdf)
 - [Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman - "Compilers: Principles, Techniques, & Tools"](http://ce.sharif.edu/courses/94-95/1/ce414-2/resources/root/Text%20Books/Compiler%20Design/Alfred%20V.%20Aho,%20Monica%20S.%20Lam,%20Ravi%20Sethi,%20Jeffrey%20D.%20Ullman-Compilers%20-%20Principles,%20Techniques,%20and%20Tools-Pearson_Addison%20Wesley%20(2006).pdf)
+- [Thorsten Ball - "Writing an Interpreter in Go"](https://edu.anarcho-copy.org/Programming%20Languages/Go/writing%20an%20INTERPRETER%20in%20go.pdf)
+- [Robert Nystrom - "Crafting Interpreters"](http://craftinginterpreters.com/contents.html)
 
 ## Laboratory tasks
 
@@ -52,7 +54,11 @@ Those techniques will be applied to the construction of a compiler for a program
 
 ### Lab 3 - Lexer
 
-***Deadline: 05.03.2022***
+1. Define syntax of your programming languages and compute sample code which consist of 2 functions, first **main function** and second **function which performs some computations**. Sample should include call of second function from main function.
+2. Define grammar of your programming language. Grammar should include sets of terminal and non-terminal symbols, and rules of derivation.
+3. Write a program which will perform tokenization of your sample code, in other words write basic lexer of your programming language.
+
+***Deadline: 12.03.2022***
 
 ### Lab 4 - Chomsky Natural Form
 
