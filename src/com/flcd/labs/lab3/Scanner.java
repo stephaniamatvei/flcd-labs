@@ -10,7 +10,7 @@ public class Scanner {
     private final List<Token> tokens = new ArrayList<>();
     private int start = 0;
     private int current = 0;
-    private int line = 1;
+    private int line = 1; // tracks what source line 'current' is on
     private static final Map<String, TokenType> keywords;
 
     static {
@@ -158,6 +158,7 @@ public class Scanner {
         return true;
     }
 
+    // peek() is sort of like advance(), but doesn't consume the character, it's called 'lookahead'
     private char peek() {
         if (isAtEnd()) return '\0';
         return source.charAt(current);
