@@ -1,0 +1,15 @@
+fun fibonacci(var n) {
+    if (n <= 1)
+        return n;
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+fun main() {
+    var n = 10;
+
+    if (fibonacci(n) = 55) {
+        return true;
+    } else {
+        return false;
+    }
+}
