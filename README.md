@@ -62,6 +62,13 @@ Those techniques will be applied to the construction of a compiler for a program
 
 ### Lab 4 - Chomsky Natural Form
 
+Context Free Grammar (CFG) -> Chomsky Normal Form (CNF)
+1. Eliminate ε-productions (D -> ε)
+2. Eliminate any renaming / unit production (S -> A)
+3. Eliminate Unproductive Symbols
+4. Eliminate Inaccessible Symbols
+5. Obtain the Chomsky Normal Form
+
 ***Deadline: 02.04.2022***
 
 ### Lab 5 - LL1 and Simple precedence parsing
