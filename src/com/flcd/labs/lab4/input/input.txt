@@ -1,0 +1,5 @@
+S aB DA
+A a BD bDAB
+B b BA
+D ε BA
+C BA
