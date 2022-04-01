@@ -17,16 +17,22 @@ public class StepThree extends StepTwo {
         List<String> unproductive = new ArrayList<>();
         for (String nonTerminal: this.grammar.getNonTerminals()) {
             if (!this.grammar.getLeft().contains(nonTerminal)) {
+                // first, add all non-terminals to the list with unproductive symbols
                 unproductive.add(nonTerminal);
             }
         }
         int i = 0;
+        // analyse all right-side productions
         for (List<String> words: this.grammar.getRight()) {
             i += 1;
-            List<String> removals = new ArrayList<>(); // word with non-productive non-terminal of some terminal
+            List<String> removals = new ArrayList<>();
+            // analyse each right-side production separately
             for (String word: words) {
+                // analyse each character from every right-side production
                 for (char c: word.toCharArray()) {
+                    // if the list with unproductive symbols contains that character
                     if (unproductive.contains(String.valueOf(c))) {
+                        // add the whole word/production to the list with removals
                         removals.add(word);
                         break;
                     }
@@ -36,8 +42,11 @@ public class StepThree extends StepTwo {
         }
         List<Integer> removals = new ArrayList<>();
         int k = 0;
-        for (String left: this.grammar.getLeft()) { // we might remove all word for some non-terminal
-            if (this.grammar.rules(left).size() == 0) { // and now can remove this non-terminal too
+        // analyse each non-terminal symbol from left-side
+        for (String left: this.grammar.getLeft()) {
+            // if the grammar rules don't contain that non-terminal symbol (== 0)
+            if (this.grammar.rules(left).size() == 0) {
+                // remove it
                 removals.add(k);
             }
             k += 1;
