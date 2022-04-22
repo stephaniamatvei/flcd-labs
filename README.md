@@ -1,4 +1,5 @@
 
+
 # *Formal Languages and Compiler Design*
 
 ## *Stephania Matvei, FAF-203, 13th variant*
@@ -12,7 +13,7 @@
   * [Lab 2 - NFA to DFA conversion](#lab-2---nfa-to-dfa-conversion)
   * [Lab 3 - Lexer](#lab-3---lexer)
   * [Lab 4 - Chomsky Natural Form](#lab-4---chomsky-natural-form)
-  * [Lab 5 - LL1 and Simple precedence parsing](#lab-5---ll1-and-simple-precedence-parsing)
+  * [Lab 5 - LL1 (top-down) and Simple Precedence (bottom-up) parsing](#lab-5---ll1-top-down-and-simple-precedence-bottom-up-parsing)
   * [Lab 6 - Parser and AST construction](#lab-6---parser-and-ast-construction)
 
 ## Introduction
@@ -22,7 +23,7 @@ The main objective of the course is to introduce the fundamental notions about f
 
 Those techniques will be applied to the construction of a compiler for a programming language. In particular, during this course the student will learn **how to build the different parts of a Compiler** with a particular emphasis on **Lexical Analysers, Parsers**.
 
-<img src="https://cs.fit.edu/~ryan/cse4083/formal1.png" width="350" height="250" align="middle" alt="formal">  
+<img src="https://cs.fit.edu/~ryan/cse4083/formal1.png" width="350" height="250" align="middle" alt="formal">    
 
 ## Literature to read
 
