@@ -1,0 +1,8 @@
+Vt=[a,b,c,d,e,f]
+S->Bc
+S->BcdC
+C->Ae
+A->f
+A->Abf
+B->a
+B->Bba
