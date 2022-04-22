@@ -71,7 +71,11 @@ Context Free Grammar (CFG) -> Chomsky Normal Form (CNF)
 
 ***Deadline: 02.04.2022***
 
-### Lab 5 - LL1 and Simple precedence parsing
+### Lab 5 - LL1 (top-down) and Simple Precedence (bottom-up) parsing
+
+Simple Precedence parsing:
+1. For the given grammar build the matrix of simple precedence.
+2. Analyse the string: *abacdfbfe*
 
 ***Deadline: 23.04.2022***
 
