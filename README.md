@@ -14,7 +14,7 @@
   * [Lab 3 - Lexer](#lab-3---lexer)
   * [Lab 4 - Chomsky Natural Form](#lab-4---chomsky-natural-form)
   * [Lab 5 - LL1 (top-down) and Simple Precedence (bottom-up) parsing](#lab-5---ll1-top-down-and-simple-precedence-bottom-up-parsing)
-  * [Lab 6 - Parser and AST construction](#lab-6---parser-and-ast-construction)
+  * [Lab 6 - Parser and AST construction (optional)](#lab-6---parser-and-ast-construction-optional)
 
 ## Introduction
 
@@ -80,6 +80,6 @@ Simple Precedence parsing:
 
 ***Deadline: 23.04.2022***
 
-### Lab 6 - Parser and AST construction
+### Lab 6 - Parser and AST construction (optional)
 
 ***Deadline: 14.05.2022***
